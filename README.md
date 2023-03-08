@@ -21,7 +21,7 @@ git clone https://github.com/dstar55/docker-hello-world-spring-boot .
 
 ##### Build Docker image
 ```
-docker build -t="hello-world-java" .
+docker build -t="docker-web" .
 ```
 Maven build will be executes during creation of the docker image.
 
@@ -29,7 +29,7 @@ Maven build will be executes during creation of the docker image.
 
 ##### Run Docker Container
 ```
-docker run -p 8080:8080 -it --rm hello-world-java
+docker run -p 8080:8080 -it --rm docker-web 
 ```
 
 ##### Test application
